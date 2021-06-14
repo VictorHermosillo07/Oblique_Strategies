@@ -1,9 +1,11 @@
 .main-content {
+    /*
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    */
     height: 100vh;
     background: #fff;
 }
