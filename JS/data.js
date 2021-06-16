@@ -1,4 +1,4 @@
-var data =[
+let data =[
         {
             "id": 1,
             "text": "Remove specifics and convert to ambiguities"
