@@ -8,6 +8,7 @@
     <title>Oblique Strategies</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/background.css">
+    <link rel="stylesheet" href="CSS/help.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     <link rel="icon" href="IMG/favicon.ico">
@@ -25,10 +26,32 @@
             </div>
             <div class="buttons">
                 <input type="button" value="New Idea" onclick="choicePhrase()">
-                <input type="button" value="?">
+                <input type="button" value="?" onclick="openHelp()">
             </div>
         </div>
     </main>
+    <div class="help" id="help" onclick="openHelp()">
+        <div class="helpCard">
+            <span class="close"></span>
+            <div>
+                <h2 class="helpTitle">Use them when:</h2>
+                <ul>
+                    <li class="helpRules">You have a creative block</li>
+                    <li class="helpRules">You have many options and don't know which one use</li>
+                    <li class="helpRules">You're not happy with the result or your project</li>
+                </ul>
+                <div class="blank"></div>
+                <h2 class="helpTitle">Rules:</h2>
+                <ul>
+                    <li class="helpRules">Pick a card randomly</li>
+                    <li class="helpRules">You have to follow what the card says, whether it makes sense or not</li>
+                    <li class="helpRules">If after this you don't like the result, you can choose another card</li>
+                    <li class="helpRules">Don't use them constantly, only when you don't know how to advance
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="created">
             <p>Idea created by Brian Eno & Peter Schmidt</p>
@@ -41,15 +64,15 @@
                     <li><a href="#"><img src="IMG/3x/GitHub@3x.png"></a></li>
                 </ul>
                 -->
-            <a href="#"><img src="IMG/3x/Behance@3x.png"></a>
-            <a href="#"><img src="IMG/3x/Instagram@3x.png"></a>
-            <a href="#"><img src="IMG/3x/GitHub@3x.png"></a>
+            <a href="https://www.behance.net/vhermosillo"><img src="IMG/3x/Behance@3x.png" target="_blank"></a>
+            <a href="https://www.instagram.com/victor.hermosill/?hl=en" target="_blank"><img src="IMG/3x/Instagram@3x.png"></a>
+            <a href="https://github.com/VictorHermosillo07/Oblique_Strategies" target="_blank"><img src="IMG/3x/GitHub@3x.png"></a>
         </div>
         </div>
     </footer>
 </body>
 <script src="JS/data.js"></script>
 <script src="JS/noise.js"></script>
-<script src="JS/cardReader.js"></script>
+<script src="JS/script.js"></script>
 
 </html>
