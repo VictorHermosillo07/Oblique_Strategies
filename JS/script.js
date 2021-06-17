@@ -9,14 +9,20 @@ function choicePhrase() {
 //Open/close help card code
 //help.addEventListener('click', () => {})
 let flag = true
+
 function openHelp() {
     const help = document.getElementById('help')
     if (flag) {
         help.classList.add('appear')
         flag = false
     } else {
-        help.classList.add('animate__fadeOut')
-        setTimeout(help.classList.remove('appear'), 2600)
+        help.classList.add('disappear')
+        setTimeout('disappear(help)', 550)
         flag = true
     }
+}
+
+const disappear = (help) => {
+    help.classList.remove('appear')
+    help.classList.remove('disappear')
 }

@@ -63,6 +63,8 @@ footer {
 .phrase {
     font-size: xx-large;
     margin-bottom: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 
