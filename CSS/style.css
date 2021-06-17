@@ -76,6 +76,7 @@ footer {
     border: 3px solid black;
     font-weight: 400;
     text-align: center;
+    letter-spacing: 2;
 }
 
 .buttons input:hover {

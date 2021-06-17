@@ -15,7 +15,8 @@ function openHelp() {
         help.classList.add('appear')
         flag = false
     } else {
-        help.classList.remove('appear')
+        help.classList.add('animate__fadeOut')
+        setTimeout(help.classList.remove('appear'), 2600)
         flag = true
     }
 }
